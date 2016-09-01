@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator
+        android:duration="@integer/morphing_time"
+        android:propertyName="pathData"
+        android:valueFrom="M12,2
+        C6.48,2 2,6.48 2,12
+        s4.48,10 10,10 10,-4.48 10,-10
+        S17.52,2 12,2z
+        M11,16
+        L9,16
+        L9,8
+        h2
+        v8z
+        M15,16
+        h-2
+        L13,8
+        h2
+        v8z"
+        android:valueTo="M10,16.5
+        C6,-4.5 -6,-4.5 -10.5,-8.50
+        s4.48,10 10,10 10,-4.48 10,-10
+        S17.52,2 12,2z
+        M12,2
+        L10,0
+        L9,8
+        h4
+        v8z
+        M12,20
+        h-10
+        L30,50
+        h10
+        v8z"
+        android:valueType="pathType" />
+
+    <objectAnimator
+        android:duration="@integer/morphing_time"
+        android:propertyName="fillColor"
+        android:valueFrom="#FF000000"
+        android:valueTo="#FF00FF00" />
+
+</set>

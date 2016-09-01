@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/android_head_vector">
+    <target
+        android:name="head"
+        android:animation="@animator/head_to_leaf_animator" />
+</animated-vector>
